@@ -3,6 +3,7 @@ import { fromEvent } from 'rxjs';
 const button = document.getElementById('create-notification');
 const notificationMessages = document.getElementById('notification-messages');
 
+console.log('warda');
 const createNotificationElement = () => {
   const element = document.createElement('article');
   element.innerText = 'Something happened.';
